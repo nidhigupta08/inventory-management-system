@@ -73,22 +73,29 @@ Additional Functionality:
 
 ## Project Structure
 
+```
 inventory-management-system/
 │
 ├── backend/
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API routes
-│ └── server.js # Entry point
+│   ├── models/        # Mongoose schemas
+│   ├── routes/        # API routes
+│   └── server.js      # Entry point
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/ # Reusable React components
-│ │ ├── App.js
-│ │ └── App.css
-│ └── public/
+│   ├── src/
+│   │   ├── components/   # React components (Sidebar, Dashboard, etc.)
+│   │   ├── App.js
+│   │   └── App.css
+│   └── public/
+│
+├── screenshots/      # Project UI images
+│   ├── dashboard.png
+│   ├── chart.png
+│   ├── product-list.png
+│   └── form.png
 │
 └── README.md
-
+```
 
 ---
 
