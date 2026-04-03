@@ -71,7 +71,9 @@ Additional Functionality:
 
 ---
 
-inventory-system/
+## Project Structure
+
+inventory-management-system/
 │
 ├── backend/
 │ ├── models/ # Mongoose schemas
@@ -94,17 +96,20 @@ inventory-system/
 
 ### 1. Clone the repository
 
+```
 git clone https://github.com/nidhigupta08/inventory-management-system.git
-
+cd inventory-management-system
+```
 
 ---
 
 ### 2. Setup Backend
 
+```
 cd backend
 npm install
 node server.js
-
+```
 
 Ensure MongoDB is installed and running locally.
 
@@ -112,12 +117,14 @@ Ensure MongoDB is installed and running locally.
 
 ### 3. Setup Frontend
 
+```
 cd frontend
 npm install
 npm start
-
+```
 
 ---
+
 
 ## Application URLs
 
