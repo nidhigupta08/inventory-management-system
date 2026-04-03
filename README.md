@@ -1,5 +1,7 @@
 # Inventory Management System
 
+A simple full-stack application to manage inventory and track stock levels efficiently.
+
 ## Overview
 
 This is a full-stack Inventory Management System built using React, Node.js, Express, and MongoDB.
@@ -92,12 +94,13 @@ inventory-system/
 
 ### 1. Clone the repository
 
-git clone https://github.com/yourusername/inventory-management-system.git
+git clone https://github.com/nidhigupta08/inventory-management-system.git
 
 
 ---
 
 ### 2. Setup Backend
+
 cd backend
 npm install
 node server.js
@@ -108,6 +111,7 @@ Ensure MongoDB is installed and running locally.
 ---
 
 ### 3. Setup Frontend
+
 cd frontend
 npm install
 npm start
